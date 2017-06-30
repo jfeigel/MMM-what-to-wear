@@ -11,18 +11,8 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
         {
-            module: 'MMM-what-to-wear',
-            config: {
-                // See below for configurable options
-            }
+            module: 'MMM-what-to-wear'
         }
     ]
 }
 ```
-
-## Configuration options
-
-| Option           | Description
-|----------------- |-----------
-| `option1`        | *Required* DESCRIPTION HERE
-| `option2`        | *Optional* DESCRIPTION HERE TOO <br><br>**Type:** `int`(milliseconds) <br>Default 60000 milliseconds (1 minute)
