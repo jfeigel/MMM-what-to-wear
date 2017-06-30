@@ -1,0 +1,12 @@
+{
+  "name": "MMM-what-to-wear",
+  "version": "1.0.0",
+  "description": "Show icons of clothes to wear, e.g. t-shirt and shorts, depending on the weather",
+  "main": "MMM-what-to-wear.js",
+  "author": "jfeigel",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
