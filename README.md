@@ -1,8 +1,8 @@
-# {{MODULE_NAME}}
+# MMM-what-to-wear
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-{{DESCRIPTION}}
+Show icons of clothes to wear, e.g. t-shirt and shorts, depending on the weather
 
 ## Using the module
 
@@ -11,7 +11,7 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
         {
-            module: '{{MODULE_NAME}}',
+            module: 'MMM-what-to-wear',
             config: {
                 // See below for configurable options
             }

@@ -1,13 +1,13 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: {{MODULE_NAME}}
+ * Module: MMM-what-to-wear
  *
- * By {{AUTHOR_NAME}}
- * {{LICENSE}} Licensed.
+ * By James Feigel
+ * MIT Licensed.
  */
 
-Module.register("{{MODULE_NAME}}", {
+Module.register("MMM-what-to-wear", {
 	defaults: {
 		updateInterval: 60000,
 		retryDelay: 5000
@@ -137,12 +137,12 @@ Module.register("{{MODULE_NAME}}", {
 
 		// the data if load
 		// send notification to helper
-		this.sendSocketNotification("{{MODULE_NAME}}-NOTIFICATION_TEST", data);
+		this.sendSocketNotification("MMM-what-to-wear-NOTIFICATION_TEST", data);
 	},
 
 	// socketNotificationReceived from helper
 	socketNotificationReceived: function (notification, payload) {
-		if(notification === "{{MODULE_NAME}}-NOTIFICATION_TEST") {
+		if(notification === "MMM-what-to-wear-NOTIFICATION_TEST") {
 			// set dataNotification
 			this.dataNotification = payload;
 			this.updateDom();
